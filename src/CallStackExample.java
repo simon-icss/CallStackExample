@@ -2,15 +2,16 @@
 public class CallStackExample {
 	public static void main(String[] args) {
 		String a = a();
-		System.out.println("whatever");
+		System.out.println("whateverrrr");
+    // hi!
 	}
 
 	public static String a() {
-		return b();
+    return "hello";
 	}
 
 	public static String b() {
-		System.out.println("dsfdfsdsf");
 		return "b";
+    // this is a comment
 	}
 }
